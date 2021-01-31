@@ -1,0 +1,19 @@
+<?php if ($content = $block->getContent('modal_overlay_block')) { ?>
+<!-- add your custom block_id above -->
+<div id="modal-overlay" style="display:none;">
+	<?php echo $content; ?>
+</div>
+<script type="text/x-magento-init">
+	{
+		"*": {
+			"Magento_Ui/js/core/app": {
+				"components": {
+					"modal_overlay": {
+						"component": "Magelearn_PopupBlock/js/modal_overlay"
+					}
+				}
+			}
+		}
+	}
+</script>
+<?php } ?>

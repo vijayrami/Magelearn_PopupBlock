@@ -1,0 +1,22 @@
+{
+    "name": "magelearn/popupblock",
+    "description": "Magento 2 Display Popup with content defined from your custom block.",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "vijaymrami@gmail.com",
+            "name": "vijay rami"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magelearn\\PopupBlock\\": ""
+        }
+    }
+}
